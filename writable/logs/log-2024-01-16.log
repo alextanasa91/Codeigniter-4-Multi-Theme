@@ -1,0 +1,225 @@
+CRITICAL - 2024-01-16 19:49:15 --> ErrorException: App\Controllers\BaseController cannot use App\Libraries\Themeable - it is not a trait
+in APPPATH\Controllers\BaseController.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-16 19:52:57 --> Error: Call to undefined function App\Controllers\render()
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 19:53:11 --> RuntimeException: `App` is not a valid theme folder.
+in APPPATH\Libraries\Themeable.php on line 60.
+ 1 APPPATH\Libraries\Themeable.php(31): App\Controllers\BaseController->getRenderer()
+ 2 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->render('welcome_message')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 19:54:31 --> TypeError: CodeIgniter\View\View::setData(): Argument #1 ($data) must be of type array, string given, called in C:\xampp\htdocs\modular\app\Libraries\Themeable.php on line 36
+in SYSTEMPATH\View\View.php on line 337.
+ 1 APPPATH\Libraries\Themeable.php(36): CodeIgniter\View\View->setData('')
+ 2 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->render('welcome_message')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 20:01:19 --> RuntimeException: `App` is not a valid theme folder.
+in APPPATH\Libraries\Themeable.php on line 60.
+ 1 APPPATH\Libraries\Themeable.php(31): App\Controllers\BaseController->getRenderer()
+ 2 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->render('welcome_message')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 20:04:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_message2.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message2.php')
+ 2 APPPATH\Libraries\Themeable.php(36): CodeIgniter\View\View->render('welcome_message2', null, true)
+ 3 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->render('welcome_message2')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 20:07:36 --> Error: Class "App\Controllers\Theme" not found
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 20:18:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_bts.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_bts.php')
+ 2 APPPATH\Libraries\Themeable.php(36): CodeIgniter\View\View->render('welcome_bts', null, true)
+ 3 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->render('welcome_bts')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 20:27:11 --> Error: Class "App\Controllers\Theme" not found
+in APPPATH\Controllers\Home.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 20:28:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_bts.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_bts.php')
+ 2 APPPATH\Libraries\Themeable.php(36): CodeIgniter\View\View->render('welcome_bts', null, true)
+ 3 APPPATH\Controllers\Home.php(12): App\Controllers\BaseController->render('welcome_bts')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 20:28:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_bts.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_bts.php')
+ 2 APPPATH\Libraries\Themeable.php(36): CodeIgniter\View\View->render('welcome_bts', null, true)
+ 3 APPPATH\Controllers\Home.php(12): App\Controllers\BaseController->render('welcome_bts')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 20:28:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_bts.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_bts.php')
+ 2 APPPATH\Libraries\Themeable.php(36): CodeIgniter\View\View->render('welcome_bts', null, true)
+ 3 APPPATH\Controllers\Home.php(12): App\Controllers\BaseController->render('welcome_bts')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 20:30:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "C:\xampp\htdocs\modular\themes/Bootstrap/welcome_bts.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('C:\\xampp\\htdocs\\modular\\themes/Bootstrap/welcome_bts.php')
+ 2 APPPATH\Libraries\Themeable.php(36): CodeIgniter\View\View->render('C:\\xampp\\htdocs\\modular\\themes/Bootstrap/welcome_bts', null, true)
+ 3 APPPATH\Controllers\Home.php(13): App\Controllers\BaseController->render('C:\\xampp\\htdocs\\modular\\themes/Bootstrap/welcome_bts')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 20:33:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "C:\xampp\htdocs\modular\themes/Bootstrapwelcome_bts.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('C:\\xampp\\htdocs\\modular\\themes/Bootstrapwelcome_bts.php')
+ 2 APPPATH\Libraries\Themeable.php(36): CodeIgniter\View\View->render('C:\\xampp\\htdocs\\modular\\themes/Bootstrapwelcome_bts', null, true)
+ 3 APPPATH\Controllers\Home.php(13): App\Controllers\BaseController->render('C:\\xampp\\htdocs\\modular\\themes/Bootstrapwelcome_bts')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 20:50:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Bootstrap/welcome_bts.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Bootstrap/welcome_bts.php')
+ 2 APPPATH\Libraries\Themeable.php(36): CodeIgniter\View\View->render('Bootstrap/welcome_bts', null, true)
+ 3 APPPATH\Controllers\Home.php(13): App\Controllers\BaseController->render('Bootstrap/welcome_bts')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 20:54:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Bootstrap/welcome_app.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Bootstrap/welcome_app.php')
+ 2 APPPATH\Libraries\Themeable.php(36): CodeIgniter\View\View->render('Bootstrap/welcome_app', null, true)
+ 3 APPPATH\Controllers\Home.php(13): App\Controllers\BaseController->render('Bootstrap/welcome_app')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 20:58:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_app.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_app.php')
+ 2 APPPATH\Libraries\Themeable.php(36): CodeIgniter\View\View->render('welcome_app', null, true)
+ 3 APPPATH\Controllers\Home.php(13): App\Controllers\BaseController->render('welcome_app')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 21:01:10 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\modular\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\modular\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'themes', 3306, '', 0)
+#1 C:\xampp\htdocs\modular\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\modular\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\modular\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\modular\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\modular\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\modular\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\modular\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\modular\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\modular\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\modular\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\modular\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\modular\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\modular\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\modular\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\modular\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\modular\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\modular\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\modular\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\modular\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\modular\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\modular\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2024-01-16 21:02:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_app.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_app.php')
+ 2 APPPATH\Libraries\Themeable.php(36): CodeIgniter\View\View->render('welcome_app', null, true)
+ 3 APPPATH\Controllers\Home.php(13): App\Controllers\BaseController->render('welcome_app')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 21:04:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_app.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_app.php')
+ 2 APPPATH\Libraries\Themeable.php(36): CodeIgniter\View\View->render('welcome_app', null, true)
+ 3 APPPATH\Controllers\Home.php(13): App\Controllers\BaseController->render('welcome_app')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 21:19:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Bonfire\Dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Bonfire\\Dashboard.php')
+ 2 APPPATH\Libraries\Themeable.php(36): CodeIgniter\View\View->render('Bonfire\\Dashboard', null, true)
+ 3 APPPATH\Controllers\Home.php(13): App\Controllers\BaseController->render('Bonfire\\Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 21:20:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Bootstrap\welcome_bts.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Bootstrap\\welcome_bts.php')
+ 2 APPPATH\Libraries\Themeable.php(36): CodeIgniter\View\View->render('Bootstrap\\welcome_bts', null, true)
+ 3 APPPATH\Controllers\Home.php(13): App\Controllers\BaseController->render('Bootstrap\\welcome_bts')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 21:31:14 --> TypeError: get_dir_file_info(): Argument #1 ($sourceDir) must be of type string, array given, called in C:\xampp\htdocs\modular\app\Controllers\Home.php on line 16
+in SYSTEMPATH\Helpers\filesystem_helper.php on line 253.
+ 1 APPPATH\Controllers\Home.php(16): get_dir_file_info([...], true)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 21:38:17 --> ErrorException: Undefined array key "relatives_path"
+in APPPATH\Libraries\Theme.php on line 101.
+ 1 APPPATH\Libraries\Theme.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "relatives_path"', 'C:\\xampp\\htdocs\\modular\\app\\Libraries\\Theme.php', 101)
+ 2 APPPATH\Libraries\Theme.php(58): App\Libraries\Theme::available()
+ 3 APPPATH\Libraries\Themeable.php(57): App\Libraries\Theme::path()
+ 4 APPPATH\Libraries\Themeable.php(31): App\Controllers\BaseController->getRenderer()
+ 5 APPPATH\Controllers\Home.php(22): App\Controllers\BaseController->render('..\\Bootstrap\\welcome_bts')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 21:41:00 --> RuntimeException: `Default` is not a valid theme folder.
+in APPPATH\Libraries\Themeable.php on line 60.
+ 1 APPPATH\Libraries\Themeable.php(31): App\Controllers\BaseController->getRenderer()
+ 2 APPPATH\Controllers\Home.php(22): App\Controllers\BaseController->render('..\\Bootstrap\\welcome_bts')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
